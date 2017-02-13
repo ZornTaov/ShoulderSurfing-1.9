@@ -39,13 +39,7 @@ public class ShoulderSurfing  {
 	 * Our configuration file
 	 */
     public static Configuration config;
-    
-	/**
-	 * Whether or not this mod is enabled
-	 */
-    @SuppressWarnings("unused")
-	private static boolean enabled = true;
-    
+        
 	/**
 	 * The forge logger
 	 */

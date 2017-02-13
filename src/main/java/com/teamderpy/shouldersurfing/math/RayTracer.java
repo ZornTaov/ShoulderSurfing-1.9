@@ -24,7 +24,7 @@ public final class RayTracer {
 		ShoulderRenderBin.projectedVector = null;
 
 		if (ShoulderLoader.mc.getRenderViewEntity() != null) {
-			if (ShoulderLoader.mc.theWorld != null) {
+			if (ShoulderLoader.mc.world != null) {
 				if (ShoulderLoader.mc.gameSettings.thirdPersonView == 1) {
 					double playerReach = 1D;
 
@@ -69,7 +69,7 @@ public final class RayTracer {
 								* playerReach, sightVector.yCoord * playerReach,
 								sightVector.zCoord * playerReach);
 	
-						List<Entity> entityList = ShoulderLoader.mc.theWorld
+						List<Entity> entityList = ShoulderLoader.mc.world
 								.getEntitiesWithinAABBExcludingEntity(
 										ShoulderLoader.mc.getRenderViewEntity(),
 										ShoulderLoader.mc

@@ -32,13 +32,13 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
-version = "1.10.2-1.1"
+version = "1.11.2-1.2"
 archivesBaseName = "ShoulderSurfing"
 
 minecraft {
-	version = "1.10.2-12.18.0.2010"
+	version = "1.11.2-13.20.0.2229"
     runDir = "run"
-    mappings = "snapshot_20160518"
+    mappings = "snapshot_20161220"
 
 }
 
